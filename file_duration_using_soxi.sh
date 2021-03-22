@@ -11,7 +11,7 @@ do
         file_duration=$(soxi -D ${files_list[$i]} | awk -F '.' '{print $1}')
         if [[ ! -d "${file_duration}_second/" ]]
 then
-echo "${files_list[$i]} Duration:${file_duration}"  > /home/ubuntu/saipavan/output/$file_duration-seconds.txt
+echo "${files_list[$i]} Duration:${file_duration}"  >> /home/ubuntu/saipavan/output/$file_duration-seconds.txt
 fi
 
 
