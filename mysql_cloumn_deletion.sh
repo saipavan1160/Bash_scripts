@@ -1,8 +1,11 @@
 #!/bin/bash
 
-host=localhost; user=root; passwd=XXXX;
+host=localhost;
+user=root;
+passwd=XXXX;
 
 #d_time=`date +%Y-%m-%d`
+
 #where
 #pavan=database_name
 #pavansai=table_in_database_pavan
